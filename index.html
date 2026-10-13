@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoGrocery - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">GoGrocery</a>
+
+        <p class="delivery">Delivering fresh groceries to your doorstep!</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </nav>
+    </header>
+
+    <section class="search-section">
+        <form action="index.html" method="get" class="search-form">
+            <input
+                type="search"
+                name="search"
+                placeholder="Search for groceries..."
+                aria-label="Search groceries">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section class="hero">
+        <h1>Groceries Delivered at Your Doorstep!</h1>
+        <p>Fresh products, everyday essentials and great value.</p>
+        <a href="#products" class="shop-btn">Shop Now</a>
+    </section>
+
+    <section id="categories" class="categories">
+        <h2>Shop by Category</h2>
+
+        <div class="category-container">
+            <a href="#fruits" class="category-link">Fruits</a>
+            <a href="#vegetables" class="category-link">Vegetables</a>
+            <a href="#dairy" class="category-link">Dairy</a>
+            <a href="#snacks" class="category-link">Snacks</a>
+            <a href="#beverages" class="category-link">Beverages</a>
+            <a href="#bakery" class="category-link">Bakery</a>
+        </div>
+    </section>
+
+    <main id="products" class="products-section">
+        <h2>Our Products</h2>
+
+        <section id="fruits" class="product-category">
+            <h3>Fresh Fruits</h3>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="apples.jpg" alt="Fresh apples">
+                    <h4>Fresh Apples</h4>
+                    <p>500 g</p>
+                    <p class="price">₹99</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="bananas.jpg" alt="Fresh bananas">
+                    <h4>Fresh Bananas</h4>
+                    <p>6 pieces</p>
+                    <p class="price">₹40</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="vegetables" class="product-category">
+            <h3>Fresh Vegetables</h3>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="potatoes.jpg" alt="Fresh potatoes">
+                    <h4>Fresh Potatoes</h4>
+                    <p>1 kg</p>
+                    <p class="price">₹35</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="cucumbers.jpg" alt="Fresh cucumbers">
+                    <h4>Fresh Cucumbers</h4>
+                    <p>500 g</p>
+                    <p class="price">₹25</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="dairy" class="product-category">
+            <h3>Dairy Products</h3>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="milk.jpg" alt="Fresh milk">
+                    <h4>Fresh Milk</h4>
+                    <p>500 ml</p>
+                    <p class="price">₹30</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="Curd.jpg" alt="Packaged curd">
+                    <h4>Fresh Curd</h4>
+                    <p>400 g</p>
+                    <p class="price">₹40</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="snacks" class="product-category">
+            <h3>Snacks and Treats</h3>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="cookies.jpg" alt="Cookies">
+                    <h4>Cookies</h4>
+                    <p>1 packet</p>
+                    <p class="price">₹25</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="chocolate.jpg" alt="Chocolate bar">
+                    <h4>Chocolate</h4>
+                    <p>1 bar</p>
+                    <p class="price">₹50</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="beverages" class="product-category">
+            <h3>Beverages</h3>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="juice.jpg" alt="Fruit juice">
+                    <h4>Fruit Juice</h4>
+                    <p>1 pack</p>
+                    <p class="price">₹60</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="cold-drink.jpg" alt="Soft drink">
+                    <h4>Soft Drink</h4>
+                    <p>750 ml</p>
+                    <p class="price">₹40</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="bakery" class="product-category">
+            <h3>Bakery Products</h3>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="bread.jpg" alt="White bread">
+                    <h4>White Bread</h4>
+                    <p>1 packet</p>
+                    <p class="price">₹40</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="croissants.jpg" alt="Croissants">
+                    <h4>Croissants</h4>
+                    <p>2 pieces</p>
+                    <p class="price">₹80</p>
+                    <button type="button" class="add-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <section id="about" class="info-section">
+        <h2>About GoGrocery</h2>
+        <p>
+            GoGrocery brings your everyday grocery essentials
+            together in one convenient place.
+        </p>
+    </section>
+
+    <section id="contact" class="info-section">
+        <h2>Contact Us</h2>
+        <p>Email: support@gogrocery.example</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 GoGrocery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
